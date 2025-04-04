@@ -9,6 +9,12 @@ if (tiempo_actual == tiempo_maximo)
 else
 {
 	tiempo_actual += 1;
+	parpadeo_actual += 1;
+	if (parpadeo_actual == parpadeo_maximo)
+	{
+		parpadeo_actual = 0;
+		parpadeo_boolean = !parpadeo_boolean;
+	}
 	alarm[0] = 1;
 }
 
