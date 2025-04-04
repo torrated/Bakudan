@@ -35,11 +35,13 @@
   "name":"Bakudan",
   "resources":[
     {"id":{"name":"Notas generales","path":"notes/Notas generales/Notas generales.yy",},},
+    {"id":{"name":"obj_collider_destruible","path":"objects/obj_collider_destruible/obj_collider_destruible.yy",},},
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},},
+    {"id":{"name":"spr_destruible","path":"sprites/spr_destruible/spr_destruible.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
   ],
   "resourceType":"GMProject",
