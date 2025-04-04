@@ -14,6 +14,14 @@ if (!place_meeting(next_x,y,obj_collider))
 if (!place_meeting(x,next_y,obj_collider))
 	y = next_y;
 
+if (boton && numero_bombas < numero_maximo_bombas)
+{
+	var _bomba = instance_create_layer(x,y,"Bombas",obj_bomba);
+	_bomba.player = self;
+	numero_bombas += 1;
+}
+
+
 }catch (_exception){
 	show_message("Error en obj_player.Step: "+_exception.longMessage);}
 	
