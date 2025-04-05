@@ -21,6 +21,7 @@ parpadeo = shader_get_uniform(shader_parpadeo_rojo,"valor");
 radio_explosion = 3; //en casillas
 tamano_effecto = 2;
 tipo_efecto = ef_smoke;
+color_efecto = c_yellow;
 
 objetos_destruibles = [obj_collider_destruible];
 
