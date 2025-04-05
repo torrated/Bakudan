@@ -1,8 +1,7 @@
 /// @description 
 
 try{
-
-//efecto humo
+	
 effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto,color_efecto);
 effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto_2,color_efecto_2);
 
