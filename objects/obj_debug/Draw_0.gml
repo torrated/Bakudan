@@ -4,7 +4,7 @@ try{
 	
 with (obj_player)
 {
-	draw_text(x,y-64,puntos);
+	//draw_text(x,y-64,puntos);
 }
 
 with (obj_bomba)
