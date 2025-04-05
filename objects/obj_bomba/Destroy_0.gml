@@ -28,7 +28,8 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 				{
 					effect_create_layer(layer,tipo_efecto,_x_der,y,tamano_effecto,color_efecto);
 					effect_create_layer(layer,tipo_efecto,_x_der,y,tamano_effecto_2,color_efecto_2);
-					instance_destroy(_instancia,true);
+					if !(array_contains(objetos_no_destruibles,_instancia.object_index))
+						instance_destroy(_instancia,true);
 				}
 		}
 		else
@@ -58,7 +59,8 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 				{
 					effect_create_layer(layer,tipo_efecto,_x_izq,y,tamano_effecto,color_efecto);
 					effect_create_layer(layer,tipo_efecto,_x_izq,y,tamano_effecto_2,color_efecto_2);
-					instance_destroy(_instancia,true);
+					if !(array_contains(objetos_no_destruibles,_instancia.object_index))
+						instance_destroy(_instancia,true);
 				}
 		}
 		else
@@ -88,7 +90,8 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 				{
 					effect_create_layer(layer,tipo_efecto,x,_y_arr,tamano_effecto,color_efecto);
 					effect_create_layer(layer,tipo_efecto,x,_y_arr,tamano_effecto_2,color_efecto_2);
-					instance_destroy(_instancia,true);
+					if !(array_contains(objetos_no_destruibles,_instancia.object_index))
+						instance_destroy(_instancia,true);
 				}
 		}
 		else
@@ -118,7 +121,8 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 				{
 					effect_create_layer(layer,tipo_efecto,x,_y_abj,tamano_effecto,color_efecto);
 					effect_create_layer(layer,tipo_efecto,x,_y_abj,tamano_effecto_2,color_efecto_2);
-					instance_destroy(_instancia,true);
+					if !(array_contains(objetos_no_destruibles,_instancia.object_index))
+						instance_destroy(_instancia,true);
 				}
 		}
 		else
