@@ -30,6 +30,10 @@ with (obj_collider)
 	//draw_set_halign(_halign);
 	//draw_set_valign(_valign);
 }
-	
+
+with (obj_enemigo)
+{
+	draw_path(path,x,y,false)
+}
 }catch (_exception){
 	show_message("Error en obj_debug.Draw: "+_exception.longMessage);}

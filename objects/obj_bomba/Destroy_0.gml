@@ -131,5 +131,8 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 
 player.numero_bombas -= 1;
 
+with(obj_mpgrid)
+	fnc_actualizar_grid();
+
 }catch (_exception){
 	show_message("Error en obj_bomba.Destroy: "+_exception.longMessage);}
