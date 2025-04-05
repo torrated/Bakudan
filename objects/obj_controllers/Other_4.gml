@@ -6,17 +6,17 @@ controles = [
 { //teclado
 	eje_x:  0,
 	eje_y:  0,
-	ataque: 0,
+	boton: 0,
 },
 { //gamepad1
 	eje_x:  0,
 	eje_y:  0,
-	ataque: 0
+	boton: 0
 },
 { //gamepad2
 	eje_x:  0,
 	eje_y:  0,
-	ataque: 0
+	boton: 0
 }
 ];
 
