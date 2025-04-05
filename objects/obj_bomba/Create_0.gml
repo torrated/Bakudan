@@ -17,7 +17,7 @@ parpadeo = shader_get_uniform(shader_parpadeo_rojo,"valor");
 
 radio_explosion = 64;
 
-objetos_destruibles = [obj_collider_destruible];
+objetos_destruibles = [obj_collider_destruible,obj_player];
 
 }catch (_exception){
 	show_message("Error en obj_bomba.create: "+_exception.longMessage);}
