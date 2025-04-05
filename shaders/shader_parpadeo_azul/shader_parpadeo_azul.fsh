@@ -9,5 +9,5 @@ uniform float valor;
 void main()
 {
 	vec4 color_original = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord );
-    gl_FragColor = vec4(color_original.r,color_original.g*valor,color_original.b*valor,color_original.a);
+    gl_FragColor = vec4(color_original.r*valor,color_original.g*valor,1.0,color_original.a);
 }

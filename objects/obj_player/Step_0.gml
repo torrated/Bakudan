@@ -23,6 +23,16 @@ if (instance_exists(obj_juego) && obj_juego.estado <> ESTADO_JUEGO.PAUSA)
 		_bomba.player = self;
 		numero_bombas += 1;
 	}
+	
+	if (estado == ESTADO_PLAYER.ESPECIAL)
+	{
+		duracion_parpadeo += 1;
+		if (duracion_parpadeo >= duracion_parpadeo_maxima)
+		{
+			duracion_parpadeo = 0;
+			estado = ESTADO_PLAYER.NORMAL;
+		}
+	}
 }
 
 }catch (_exception){

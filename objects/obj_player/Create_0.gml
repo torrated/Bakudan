@@ -15,6 +15,17 @@ numero_bombas = 0;
 
 puntos = 0;
 
+enum ESTADO_PLAYER
+{
+	NORMAL,
+	ESPECIAL
+}
+estado = ESTADO_PLAYER.NORMAL;
+
+parpadeo = shader_get_uniform(shader_parpadeo_azul,"valor");
+duracion_parpadeo_maxima = 60*5;//5 segundos
+duracion_parpadeo = 0;
+
 }catch (_exception){
 	show_message("Error en obj_player.create: "+_exception.longMessage);}
 	

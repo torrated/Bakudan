@@ -11,12 +11,11 @@ tiempo_actual = 0;
 parpadeo_maximo = 15;
 parpadeo_actual = 0;
 parpadeo_boolean = true;
+parpadeo = shader_get_uniform(shader_parpadeo_rojo,"valor");
 
 alarm[0] = 1;
 
 player = noone;
-
-parpadeo = shader_get_uniform(shader_parpadeo_rojo,"valor");
 
 radio_explosion = 3; //en casillas
 tamano_effecto = 1;
