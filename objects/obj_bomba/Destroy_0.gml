@@ -2,6 +2,8 @@
 
 try{
 
+effect_create_layer(layer,ef_explosion,x,y,1,c_white);
+
 var _lista = ds_list_create();
 var _resultado = collision_circle_list(x,y,radio_explosion,objetos_destruibles,true,true,_lista,true);
 
