@@ -1,7 +1,10 @@
 /// @description 
 
 try {
-	
+
+x = obj_juego.tamano_borde+(obj_juego.tamano_pasillo/2)+(obj_juego.tamano*(round(x/obj_juego.tamano)))-obj_juego.tamano;
+y = obj_juego.tamano_borde+(obj_juego.tamano_pasillo/2)+(obj_juego.tamano*(round(y/obj_juego.tamano)))-obj_juego.tamano;
+
 tiempo_maximo = 3 * 60; // 3 segundos
 tiempo_actual = 0;
 
