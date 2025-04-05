@@ -38,6 +38,7 @@
     {"id":{"name":"obj_bomba","path":"objects/obj_bomba/obj_bomba.yy",},},
     {"id":{"name":"obj_collider_destruible","path":"objects/obj_collider_destruible/obj_collider_destruible.yy",},},
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
+    {"id":{"name":"obj_controllers","path":"objects/obj_controllers/obj_controllers.yy",},},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"obj_juego","path":"objects/obj_juego/obj_juego.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
