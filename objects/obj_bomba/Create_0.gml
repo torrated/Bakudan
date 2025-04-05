@@ -18,9 +18,16 @@ player = noone;
 
 parpadeo = shader_get_uniform(shader_parpadeo_rojo,"valor");
 
-radio_explosion = 64;
+radio_explosion = 3; //en casillas
+tamano_effecto = 2;
+tipo_efecto = ef_smoke;
 
-objetos_destruibles = [obj_collider_destruible,obj_player];
+objetos_destruibles = [obj_collider_destruible];
+
+stop_x_pos = false;
+stop_x_neg = false;
+stop_y_pos = false;
+stop_y_neg = false;
 
 }catch (_exception){
 	show_message("Error en obj_bomba.create: "+_exception.longMessage);}
