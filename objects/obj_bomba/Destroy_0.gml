@@ -4,6 +4,7 @@ try{
 
 //efecto humo
 effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto,color_efecto);
+effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto_2,color_efecto_2);
 
 for (var _i = 1; _i <= radio_explosion; _i++)
 {
@@ -18,11 +19,13 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 			instance_destroy(_instancia,true);
 			stop_x_pos = true;
 			effect_create_layer(layer,tipo_efecto,_x_der,y,tamano_effecto,color_efecto);
+			effect_create_layer(layer,tipo_efecto,_x_der,y,tamano_effecto_2,color_efecto_2);
 		}
 		else if (position_meeting(_x_der,y,obj_collider) && !position_meeting(_x_der,y,objetos_destruibles))
 				stop_x_pos = true;
 			else
 				effect_create_layer(layer,tipo_efecto,_x_der,y,tamano_effecto,color_efecto);
+				effect_create_layer(layer,tipo_efecto,_x_der,y,tamano_effecto_2,color_efecto_2);
 	}
 	
 	//eje x izquierda
@@ -35,11 +38,13 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 			instance_destroy(_instancia,true);
 			stop_x_neg = true;
 			effect_create_layer(layer,tipo_efecto,_x_izq,y,tamano_effecto,color_efecto);
+			effect_create_layer(layer,tipo_efecto,_x_izq,y,tamano_effecto_2,color_efecto_2);
 		}
 		else if (position_meeting(_x_izq,y,obj_collider) && !position_meeting(_x_izq,y,objetos_destruibles))
 				stop_x_neg = true;
 			else
 				effect_create_layer(layer,tipo_efecto,_x_izq,y,tamano_effecto,color_efecto);
+				effect_create_layer(layer,tipo_efecto,_x_izq,y,tamano_effecto_2,color_efecto_2);
 	}
 	
 	//eje y arriba
@@ -52,11 +57,13 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 			instance_destroy(_instancia,true);
 			stop_y_neg = true;
 			effect_create_layer(layer,tipo_efecto,x,_y_arr,tamano_effecto,color_efecto);
+			effect_create_layer(layer,tipo_efecto,x,_y_arr,tamano_effecto_2,color_efecto_2);
 		}
 		else if (position_meeting(x,_y_arr,obj_collider) && !position_meeting(x,_y_arr,objetos_destruibles))
 				stop_y_neg = true;
 			else
 				effect_create_layer(layer,tipo_efecto,x,_y_arr,tamano_effecto,color_efecto);
+				effect_create_layer(layer,tipo_efecto,x,_y_arr,tamano_effecto_2,color_efecto_2);
 	}
 	
 	//eje y abajo
@@ -69,11 +76,13 @@ for (var _i = 1; _i <= radio_explosion; _i++)
 			instance_destroy(_instancia,true);
 			stop_y_pos = true;
 			effect_create_layer(layer,tipo_efecto,x,_y_abj,tamano_effecto,color_efecto);
+			effect_create_layer(layer,tipo_efecto,x,_y_abj,tamano_effecto_2,color_efecto_2);
 		}
 		else if (position_meeting(x,_y_abj,obj_collider) && !position_meeting(x,_y_abj,objetos_destruibles))
 				stop_y_pos = true;
 			else
 				effect_create_layer(layer,tipo_efecto,x,_y_abj,tamano_effecto,color_efecto);
+				effect_create_layer(layer,tipo_efecto,x,_y_abj,tamano_effecto_2,color_efecto_2);
 	}
 }
 
