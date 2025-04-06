@@ -29,5 +29,20 @@ if (instance_exists(obj_player))
 	draw_set_color(_color);
 	draw_set_halign(_haligh);
 }
+
+if (instance_exists(obj_timer))
+{
+	var _color = draw_get_color();
+	var _haligh = draw_get_halign();
+	
+	draw_set_color(c_white);
+	draw_set_halign(fa_center);
+	
+	draw_text(display_get_gui_width()/2,obj_juego.tamano_borde,string(obj_timer.timer));
+	
+	draw_set_color(_color);
+	draw_set_halign(_haligh);
+}
+
 }catch (_exception){
 	show_message("Error en obj_gui.Draw: "+_exception.longMessage);}

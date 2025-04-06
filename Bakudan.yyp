@@ -50,6 +50,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_salida","path":"objects/obj_salida/obj_salida.yy",},},
     {"id":{"name":"obj_shake","path":"objects/obj_shake/obj_shake.yy",},},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Scripts","path":"scripts/Scripts/Scripts.yy",},},
     {"id":{"name":"shader_parpadeo_amarillo","path":"shaders/shader_parpadeo_amarillo/shader_parpadeo_amarillo.yy",},},
