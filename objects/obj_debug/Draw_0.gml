@@ -34,6 +34,7 @@ with (obj_collider)
 with (obj_enemigo)
 {
 	draw_path(path,x,y,false)
+	//draw_text(x,y+32,path_speed);
 }
 }catch (_exception){
 	show_message("Error en obj_debug.Draw: "+_exception.longMessage);}
