@@ -1,3 +1,3 @@
 /// @description 
 
-puntos = 100;
+puntos = 10;

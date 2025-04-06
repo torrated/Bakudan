@@ -25,5 +25,7 @@ enum ESTADO_ENEMIGO
 }
 estado = ESTADO_ENEMIGO.NORMAL;
 
+puntos = 1000;
+
 }catch (_exception){
 	show_message("Error en obj_enemigo.Create: "+_exception.longMessage);}
