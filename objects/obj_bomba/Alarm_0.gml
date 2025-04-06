@@ -2,7 +2,7 @@
 
 try{
 
-if (instance_exists(obj_juego) && obj_juego.estado <> ESTADO_JUEGO.PAUSA)
+if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 {
 	if (tiempo_actual == tiempo_maximo)
 	{

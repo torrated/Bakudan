@@ -4,7 +4,8 @@ try{
 enum ESTADO_JUEGO
 {
 	NORMAL,
-	PAUSA
+	PAUSA,
+	GAME_OVER
 };
 
 estado = ESTADO_JUEGO.NORMAL;

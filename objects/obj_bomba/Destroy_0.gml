@@ -2,7 +2,7 @@
 
 try{
 
-if (instance_exists(obj_juego) && obj_juego.estado <> ESTADO_JUEGO.PAUSA)
+if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 {
 	effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto,color_efecto);
 	effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto_2,color_efecto_2);

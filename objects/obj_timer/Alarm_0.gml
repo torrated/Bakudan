@@ -2,7 +2,10 @@
 try{
 
 if (timer <= 0)
+{
 	timer = 0;
+	obj_juego.estado = ESTADO_JUEGO.GAME_OVER;
+}
 else
 {
 	timer -= 1;
