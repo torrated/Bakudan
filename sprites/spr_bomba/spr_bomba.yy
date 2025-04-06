@@ -19,7 +19,8 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ca2dcb1e-491c-4ed6-9b25-2fb63fe19b6c","blendMode":0,"displayName":"default","isLocked":false,"name":"ca2dcb1e-491c-4ed6-9b25-2fb63fe19b6c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"02100f25-577d-42da-9b97-6e263700e783","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"02100f25-577d-42da-9b97-6e263700e783","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ca2dcb1e-491c-4ed6-9b25-2fb63fe19b6c","blendMode":0,"displayName":"default","isLocked":false,"name":"ca2dcb1e-491c-4ed6-9b25-2fb63fe19b6c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_bomba",
   "nineSlice":null,

@@ -19,7 +19,8 @@
   "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ca2dcb1e-491c-4ed6-9b25-2fb63fe19b6c","blendMode":0,"displayName":"default","isLocked":false,"name":"ca2dcb1e-491c-4ed6-9b25-2fb63fe19b6c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5e240ebb-ab89-4484-a62d-19f591719c3f","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"5e240ebb-ab89-4484-a62d-19f591719c3f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ca2dcb1e-491c-4ed6-9b25-2fb63fe19b6c","blendMode":0,"displayName":"default","isLocked":false,"name":"ca2dcb1e-491c-4ed6-9b25-2fb63fe19b6c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_bolita",
   "nineSlice":null,
