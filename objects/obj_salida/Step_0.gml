@@ -4,6 +4,9 @@ try{
 	
 var _numero_enemigos = instance_number(obj_enemigo);
 
+if (_numero_enemigos == 0 && !portal_activado)
+	portal_activado = true;
+
 if (_numero_enemigos == 0 && !shader_activado)
 {
 	if (place_meeting(x,y,obj_collider_destruible))

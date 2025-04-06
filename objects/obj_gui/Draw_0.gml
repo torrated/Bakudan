@@ -14,6 +14,7 @@ if (instance_exists(obj_juego) && obj_juego.estado <> ESTADO_JUEGO.NORMAL)
 	{
 		case ESTADO_JUEGO.PAUSA: draw_text(display_get_gui_width()/2,display_get_gui_height()/2,"PAUSE"); break;
 		case ESTADO_JUEGO.GAME_OVER: draw_text(display_get_gui_width()/2,display_get_gui_height()/2,"GAME OVER"); break;
+		case ESTADO_JUEGO.COMPLETE: draw_text(display_get_gui_width()/2,display_get_gui_height()/2,"LEVEL COMPLETE"); break;
 	}
 	
 	draw_set_color(_color);
