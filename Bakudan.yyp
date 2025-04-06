@@ -52,6 +52,7 @@
     {"id":{"name":"obj_shake","path":"objects/obj_shake/obj_shake.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Scripts","path":"scripts/Scripts/Scripts.yy",},},
+    {"id":{"name":"shader_parpadeo_amarillo","path":"shaders/shader_parpadeo_amarillo/shader_parpadeo_amarillo.yy",},},
     {"id":{"name":"shader_parpadeo_azul","path":"shaders/shader_parpadeo_azul/shader_parpadeo_azul.yy",},},
     {"id":{"name":"shader_parpadeo_rojo","path":"shaders/shader_parpadeo_rojo/shader_parpadeo_rojo.yy",},},
     {"id":{"name":"shader_pinta_azul","path":"shaders/shader_pinta_azul/shader_pinta_azul.yy",},},
