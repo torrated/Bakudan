@@ -25,7 +25,7 @@ color_efecto = c_yellow;
 color_efecto_2 = c_red;
 
 objetos_destruibles = [obj_collider_destruible];
-objetos_no_destruibles = [obj_collider,obj_enemigo];
+objetos_no_destruibles = [obj_collider,obj_enemigo,obj_salida];
 
 stop_x_pos = false;
 stop_x_neg = false;

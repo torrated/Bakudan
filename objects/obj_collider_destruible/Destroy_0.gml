@@ -4,7 +4,7 @@ try{
 
 randomize();
 
-if (irandom(100) <= probabilidad)
+if (irandom(100) <= probabilidad && x <> obj_salida.x && y <> obj_salida.y)
 	instance_create_layer(x,y,"Bolitas",obj_fruta);
 
 }catch (_exception){
