@@ -139,6 +139,8 @@ if (instance_exists(obj_juego) && obj_juego.estado <> ESTADO_JUEGO.PAUSA)
 
 	with(obj_mpgrid)
 		fnc_actualizar_grid();
+	
+	instance_create_layer(x,y,layer,obj_shake);
 }
 
 }catch (_exception){
