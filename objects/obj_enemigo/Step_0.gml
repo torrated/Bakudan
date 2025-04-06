@@ -2,7 +2,7 @@
 
 try{
 
-if (obj_player.estado == ESTADO_PLAYER.ESPECIAL)
+if (instance_exists(obj_player) && obj_player.estado == ESTADO_PLAYER.ESPECIAL)
 	estado = ESTADO_ENEMIGO.HUYENDO;
 else
 	estado = ESTADO_ENEMIGO.NORMAL;

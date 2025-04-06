@@ -1,21 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_collider_destruible",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_fruta",
+  "eventList":[],
   "managed":true,
-  "name":"obj_collider_destruible",
+  "name":"obj_fruta",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_collider",
-    "path":"objects/obj_collider/obj_collider.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_destruible",
-    "path":"sprites/spr_destruible/spr_destruible.yy",
+    "name":"spr_fruta",
+    "path":"sprites/spr_fruta/spr_fruta.yy",
   },
   "spriteMaskId":null,
   "visible":true,
