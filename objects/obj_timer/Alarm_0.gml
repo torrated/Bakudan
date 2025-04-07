@@ -8,8 +8,13 @@ if (timer <= 0)
 }
 else
 {
-	timer -= 1;
-	alarm[0] = refresco_alarma;
+	if (obj_juego.estado == ESTADO_JUEGO.NORMAL)
+	{
+		timer -= 1;
+		alarm[0] = refresco_alarma;
+	}
+	else
+		alarm[0] = 1;
 }
 
 }catch (_exception){
