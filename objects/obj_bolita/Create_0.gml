@@ -1,0 +1,3 @@
+/// @description 
+
+puntos = 10;
