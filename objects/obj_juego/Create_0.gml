@@ -24,6 +24,9 @@ randomize();
 salida = instance_find(obj_collider_destruible,irandom_range(0,_numero_destruibles-1));
 instance_create_layer(salida.x,salida.y,"Salida",obj_salida);
 
+tiempo_ultima_fruta = 0;
+tiempo_trigger_fruta = 5*60; // 5 segundos
+
 }catch (_exception){
 	show_message("Error en obj_juego.Create: "+_exception.longMessage);}
 	
