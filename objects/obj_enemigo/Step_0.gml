@@ -9,9 +9,7 @@ if (instance_exists(obj_juego))
 		if (path_speed == 0)
 			path_speed = velocidad;
 		if (instance_exists(obj_player) && obj_player.estado == ESTADO_PLAYER.ESPECIAL)
-		{
 			estado = ESTADO_ENEMIGO.HUYENDO;
-		}
 		else
 			estado = ESTADO_ENEMIGO.NORMAL;
 
