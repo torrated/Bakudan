@@ -6,10 +6,14 @@ if (estado == ESTADO_ITEM.NORMAL)
 	draw_self();
 else
 {
-	shader_set(shader_parpadeo_rojo);
-	shader_set_uniform_f(parpadeo,(duracion_actual mod 30)<15);
-	draw_self();
-	shader_reset();
+	if ((duracion_actual mod 30)<15)
+	{
+		shader_set(shader_pinta_rojo);
+		draw_self();
+		shader_reset();
+	}
+	else
+		draw_self();
 }
 
 

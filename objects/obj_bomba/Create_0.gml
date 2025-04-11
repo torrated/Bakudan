@@ -8,10 +8,8 @@ y = obj_juego.tamano_borde+(obj_juego.tamano_pasillo/2)+(obj_juego.tamano*(round
 tiempo_maximo = 3 * 60; // 3 segundos
 tiempo_actual = 0;
 
-parpadeo_maximo = 15;
+parpadeo_maximo = 30;
 parpadeo_actual = 0;
-parpadeo_boolean = true;
-parpadeo = shader_get_uniform(shader_parpadeo_rojo,"valor");
 
 alarm[0] = 1;
 

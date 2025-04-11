@@ -21,6 +21,7 @@ if (instance_exists(obj_juego) && obj_juego.estado <> ESTADO_JUEGO.NORMAL)
 	draw_set_halign(_haligh);
 }
 
+#region SCORE PLAYER 1
 if (instance_exists(obj_player))
 {
 	var _color = draw_get_color();
@@ -29,12 +30,14 @@ if (instance_exists(obj_player))
 	draw_set_color(c_white);
 	draw_set_halign(fa_center);
 	
-	draw_text(obj_inicio_player1.x,obj_inicio_player1.y,"Player1\n"+string(obj_player.puntos));
+	draw_text(puntuacion_player1.x,puntuacion_player1.y,"Player1\n"+string(obj_player.puntos));
 	
 	draw_set_color(_color);
 	draw_set_halign(_haligh);
 }
+#endregion
 
+#region TIMER
 if (instance_exists(obj_timer))
 {
 	var _color = draw_get_color();
@@ -48,6 +51,20 @@ if (instance_exists(obj_timer))
 	draw_set_color(_color);
 	draw_set_halign(_haligh);
 }
+#endregion
+
+#region VERSION
+	var _color = draw_get_color();
+	var _haligh = draw_get_halign();
+	
+	draw_set_color(c_white);
+	draw_set_halign(fa_center);
+	
+	draw_text(puntuacion_player1.x,room_height-obj_juego.tamano_borde,"v0.2");
+	
+	draw_set_color(_color);
+	draw_set_halign(_haligh);
+#endregion
 
 }catch (_exception){
 	show_message("Error en obj_gui.Draw: "+_exception.longMessage);}
