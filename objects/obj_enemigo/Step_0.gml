@@ -2,6 +2,7 @@
 
 try{
 
+struct_posiciones = scr_check_posiciones(self);
 if (instance_exists(obj_juego))
 {
 	if (obj_juego.estado == ESTADO_JUEGO.NORMAL)

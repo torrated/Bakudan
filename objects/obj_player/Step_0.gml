@@ -2,6 +2,8 @@
 
 try{
 
+struct_posiciones = scr_check_posiciones(self);
+
 if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 {
 	var control=0;

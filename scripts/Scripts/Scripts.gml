@@ -1,3 +1,20 @@
+function scr_check_posiciones(_instancia){
+try{
+
+var _struct = 
+{
+	der: position_meeting(_instancia.x+obj_juego.tamano,_instancia.y,obj_collider),
+	izq: position_meeting(_instancia.x-obj_juego.tamano,_instancia.y,obj_collider),
+	arr: position_meeting(_instancia.x,_instancia.y-obj_juego.tamano,obj_collider),
+	abj: position_meeting(_instancia.x,_instancia.y+obj_juego.tamano,obj_collider)
+};
+
+return _struct;
+
+}catch (_exception){
+	show_message("Error en Scripts.scr_rellenar_bolitas: "+_exception.longMessage);}
+}
+
 function scr_rellenar_bolitas(){
 try{
 

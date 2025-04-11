@@ -25,6 +25,8 @@ estado = ESTADO_PLAYER.NORMAL;
 duracion_parpadeo_maxima = 60*5;//5 segundos
 duracion_parpadeo = 0;
 
+struct_posiciones = scr_check_posiciones(self);
+
 }catch (_exception){
 	show_message("Error en obj_player.create: "+_exception.longMessage);}
 	
