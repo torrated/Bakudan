@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"shader_parpadeo_rojo",
-  "name":"shader_parpadeo_rojo",
+  "%Name":"shader_pinta_rojo",
+  "name":"shader_pinta_rojo",
   "parent":{
     "name":"Shaders",
     "path":"folders/Shaders.yy",

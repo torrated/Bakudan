@@ -2,39 +2,33 @@
 
 try{
 	
+//draw_text(mouse_x,mouse_y,string(mouse_x)+","+string(mouse_y));
 with (obj_player)
 {
-	//draw_text(x,y-64,puntos);
+	//draw_text(x+obj_juego.tamano,y,struct_posiciones.der);
+	//draw_text(x-obj_juego.tamano,y,struct_posiciones.izq);
+	//draw_text(x,y+obj_juego.tamano,struct_posiciones.abj);
+	//draw_text(x,y-obj_juego.tamano,struct_posiciones.arr);
+
 }
 
 with (obj_bomba)
 {
-	//for (var _i = 1; _i <= 15; _i++)
-	//{
 
-	//	draw_circle(x+(_i*obj_juego.tamano),y,3,false);
-	//	draw_circle(x-(_i*obj_juego.tamano),y,3,false);
-	//	draw_circle(x,y+(_i*obj_juego.tamano),3,false);
-	//	draw_circle(x,y-(_i*obj_juego.tamano),3,false);
-	//}
-	//draw_text(x,y,string(x)+","+string(y));
 }
 
 with (obj_collider)
 {
-	//var _halign = draw_get_halign();
-	//var _valign = draw_get_valign();
-	//draw_set_halign(fa_center);
-	//draw_set_valign(fa_middle);
-	//draw_text(x,y,string(x)+","+string(y));
-	//draw_set_halign(_halign);
-	//draw_set_valign(_valign);
+
 }
 
 with (obj_enemigo)
 {
-	//draw_path(path,x,y,false)
-	//draw_text(x,y+32,path_speed);
+	//draw_text(x+obj_juego.tamano,y,struct_posiciones.der);
+	//draw_text(x-obj_juego.tamano,y,struct_posiciones.izq);
+	//draw_text(x,y+obj_juego.tamano,struct_posiciones.abj);
+	//draw_text(x,y-obj_juego.tamano,struct_posiciones.arr);
 }
+
 }catch (_exception){
 	show_message("Error en obj_debug.Draw: "+_exception.longMessage);}

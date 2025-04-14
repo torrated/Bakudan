@@ -24,8 +24,12 @@ enum ESTADO_ENEMIGO
 	HUYENDO
 }
 estado = ESTADO_ENEMIGO.NORMAL;
+estado_anterior = ESTADO_ENEMIGO.NORMAL;
 
 puntos = 1000;
+
+
+struct_posiciones = scr_check_posiciones(self);
 
 }catch (_exception){
 	show_message("Error en obj_enemigo.Create: "+_exception.longMessage);}

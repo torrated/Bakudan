@@ -6,10 +6,14 @@ if !(activa_shader)
 	draw_self();
 else
 {
-	shader_set(shader_parpadeo_amarillo);
-	shader_set_uniform_f(parpadeo,valor mod valor_maximo < valor_medio);
-	draw_self();
-	shader_reset();
+	if (valor mod valor_maximo < (valor_maximo/2))
+	{
+		shader_set(shader_parpadeo_amarillo);
+		draw_self();
+		shader_reset();
+	}
+	else
+		draw_self();
 }
 
 }catch (_exception){
