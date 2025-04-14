@@ -24,6 +24,7 @@ enum ESTADO_ENEMIGO
 	HUYENDO
 }
 estado = ESTADO_ENEMIGO.NORMAL;
+estado_anterior = ESTADO_ENEMIGO.NORMAL;
 
 puntos = 1000;
 
