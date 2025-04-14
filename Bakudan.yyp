@@ -64,6 +64,7 @@
     {"id":{"name":"spr_fruta","path":"sprites/spr_fruta/spr_fruta.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
     {"id":{"name":"spr_salida","path":"sprites/spr_salida/spr_salida.yy",},},
+    {"id":{"name":"spr_zapatillas","path":"sprites/spr_zapatillas/spr_zapatillas.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
