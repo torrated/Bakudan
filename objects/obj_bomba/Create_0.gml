@@ -15,7 +15,7 @@ alarm[0] = 1;
 
 player = noone;
 
-radio_explosion = 3; //en casillas
+radio_explosion = 1; //en casillas
 tamano_effecto = 1;
 tamano_effecto_2 = 1;
 tipo_efecto = ef_smoke;
