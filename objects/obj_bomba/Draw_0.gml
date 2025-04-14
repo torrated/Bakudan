@@ -1,6 +1,10 @@
 /// @description 
 
-shader_set(shader_parpadeo_rojo);
-shader_set_uniform_f(parpadeo,parpadeo_boolean);
-draw_self();
-shader_reset();
+if (parpadeo_actual mod parpadeo_maximo < (parpadeo_maximo/2))
+{
+	shader_set(shader_pinta_rojo);
+	draw_self();
+	shader_reset();
+}
+else
+	draw_self();
