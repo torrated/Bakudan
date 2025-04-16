@@ -15,6 +15,9 @@ numero_bombas = 0;
 
 puntos = 0;
 
+sprite_quieto = spr_player_quieto;
+sprite_andando = spr_player_andando;
+
 enum ESTADO_PLAYER
 {
 	NORMAL,
