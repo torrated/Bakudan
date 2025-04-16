@@ -1,5 +1,4 @@
-/// @description Inserte aquí la descripción
-// Puede escribir su código en este editor
+/// @description 
 
 //obj_player.estado = ESTADO_PLAYER.ESPECIAL;
 with(obj_collider_destruible)

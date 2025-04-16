@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"Notas generales","path":"notes/Notas generales/Notas generales.yy",},},
     {"id":{"name":"obj_bolita","path":"objects/obj_bolita/obj_bolita.yy",},},
+    {"id":{"name":"obj_bomba_adicional","path":"objects/obj_bomba_adicional/obj_bomba_adicional.yy",},},
     {"id":{"name":"obj_bomba","path":"objects/obj_bomba/obj_bomba.yy",},},
     {"id":{"name":"obj_collider_destruible","path":"objects/obj_collider_destruible/obj_collider_destruible.yy",},},
     {"id":{"name":"obj_collider","path":"objects/obj_collider/obj_collider.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"obj_salida","path":"objects/obj_salida/obj_salida.yy",},},
     {"id":{"name":"obj_shake","path":"objects/obj_shake/obj_shake.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
+    {"id":{"name":"obj_zapatillas","path":"objects/obj_zapatillas/obj_zapatillas.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Scripts","path":"scripts/Scripts/Scripts.yy",},},
     {"id":{"name":"shader_parpadeo_amarillo","path":"shaders/shader_parpadeo_amarillo/shader_parpadeo_amarillo.yy",},},
@@ -63,6 +65,7 @@
     {"id":{"name":"spr_enemigo","path":"sprites/spr_enemigo/spr_enemigo.yy",},},
     {"id":{"name":"spr_fruta","path":"sprites/spr_fruta/spr_fruta.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
+    {"id":{"name":"spr_otra_bomba","path":"sprites/spr_otra_bomba/spr_otra_bomba.yy",},},
     {"id":{"name":"spr_salida","path":"sprites/spr_salida/spr_salida.yy",},},
     {"id":{"name":"spr_zapatillas","path":"sprites/spr_zapatillas/spr_zapatillas.yy",},},
   ],
