@@ -2,6 +2,8 @@
 
 try{
 
+scr_dibuja_sombra(x-24,y+27,x+24,y+37);
+	
 if (estado == ESTADO_ENEMIGO.HUYENDO)
 {
 	shader_set(shader_pinta_azul);

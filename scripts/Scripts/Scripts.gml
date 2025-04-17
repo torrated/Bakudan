@@ -1,3 +1,21 @@
+function scr_dibuja_sombra(_x1,_y1,_x2,_y2){
+try{
+	
+	var _color = draw_get_color();
+	var _alpha = draw_get_alpha();
+	
+	draw_set_color(c_black);
+	draw_set_alpha(0.5);
+	draw_ellipse(_x1,_y1,_x2,_y2,false);
+	
+	draw_set_color(_color);
+	draw_set_alpha(_alpha);
+
+}catch (_exception){
+	show_message("Error en Scripts.scr_dibuja_sombra: "+_exception.longMessage);}
+}
+
+
 function scr_check_posiciones(_instancia){
 try{
 

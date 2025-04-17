@@ -1,4 +1,7 @@
 /// @description 
+try{
+
+scr_dibuja_sombra(x-16,y+10,x+16,y+20);
 
 if (parpadeo_actual mod parpadeo_maximo < (parpadeo_maximo/2))
 {
@@ -8,3 +11,6 @@ if (parpadeo_actual mod parpadeo_maximo < (parpadeo_maximo/2))
 }
 else
 	draw_self();
+	
+}catch (_exception){
+	show_message("Error en obj_bomba.draw: "+_exception.longMessage);}
