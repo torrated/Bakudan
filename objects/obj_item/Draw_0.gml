@@ -2,6 +2,8 @@
 
 try{
 
+scr_dibuja_sombra(x-24,y+32,x+24,y+48);
+
 if (estado == ESTADO_ITEM.NORMAL)
 	draw_self();
 else
@@ -18,4 +20,4 @@ else
 
 
 }catch (_exception){
-	show_message("Error en obj_bomba_adicional.Draw: "+_exception.longMessage);}
+	show_message("Error en obj_fruta.Draw: "+_exception.longMessage);}

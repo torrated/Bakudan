@@ -46,6 +46,7 @@
     {"id":{"name":"obj_fruta","path":"objects/obj_fruta/obj_fruta.yy",},},
     {"id":{"name":"obj_gui","path":"objects/obj_gui/obj_gui.yy",},},
     {"id":{"name":"obj_inicio_player1","path":"objects/obj_inicio_player1/obj_inicio_player1.yy",},},
+    {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},},
     {"id":{"name":"obj_juego","path":"objects/obj_juego/obj_juego.yy",},},
     {"id":{"name":"obj_mpgrid","path":"objects/obj_mpgrid/obj_mpgrid.yy",},},
     {"id":{"name":"obj_muro_destruible_hor","path":"objects/obj_muro_destruible_hor/obj_muro_destruible_hor.yy",},},
