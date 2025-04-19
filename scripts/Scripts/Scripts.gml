@@ -45,7 +45,9 @@ while (_y < room_height)
 	while (_x < room_width)
 	{
 		if !(position_meeting(_x,_y,all))
+		{
 			instance_create_layer(_x,_y,"Bolitas",obj_bolita);
+		}
 		_x += obj_juego.tamano;
 	}
 	_x = _inicial;
