@@ -27,6 +27,8 @@ instance_create_layer(salida.x,salida.y,"Salida",obj_salida);
 tiempo_ultima_fruta = 0;
 tiempo_trigger_fruta = 5*60; // 5 segundos
 
+audio_play_sound(snd_musica_1,1,true,0.5);
+
 }catch (_exception){
 	show_message("Error en obj_juego.Create: "+_exception.longMessage);}
 	
