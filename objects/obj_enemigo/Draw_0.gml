@@ -2,7 +2,7 @@
 
 try{
 
-scr_dibuja_sombra(x-24,y+27,x+24,y+37);
+scr_dibuja_sombra(x-32,y+35,x+32,y+59);
 	
 if (estado == ESTADO_ENEMIGO.HUYENDO)
 {

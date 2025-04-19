@@ -72,6 +72,11 @@ if (instance_exists(obj_juego))
 	}
 	else
 		path_speed = 0;
+	
+	if (direction == 0)
+		image_xscale = 1;
+	if (direction == 270)
+		image_xscale = -1;
 }
 
 }catch (_exception){
