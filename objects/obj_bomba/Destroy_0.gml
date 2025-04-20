@@ -62,7 +62,7 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 					{
 						effect_create_layer(layer,tipo_efecto,_x_izq,y,tamano_effecto,color_efecto);
 						effect_create_layer(layer,tipo_efecto,_x_izq,y,tamano_effecto_2,color_efecto_2);
-						if !(array_contains(objetos_no_destruibles,_instancia.object_index))
+						if (!array_contains(objetos_no_destruibles,_instancia.object_index) && !(_instancia.object_index == obj_player && obj_player.estado == ESTADO_PLAYER.ESPECIAL))
 							instance_destroy(_instancia,true);
 					}
 			}
@@ -93,7 +93,7 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 					{
 						effect_create_layer(layer,tipo_efecto,x,_y_arr,tamano_effecto,color_efecto);
 						effect_create_layer(layer,tipo_efecto,x,_y_arr,tamano_effecto_2,color_efecto_2);
-						if !(array_contains(objetos_no_destruibles,_instancia.object_index))
+						if (!array_contains(objetos_no_destruibles,_instancia.object_index) && !(_instancia.object_index == obj_player && obj_player.estado == ESTADO_PLAYER.ESPECIAL))
 							instance_destroy(_instancia,true);
 					}
 			}
@@ -124,7 +124,7 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 					{
 						effect_create_layer(layer,tipo_efecto,x,_y_abj,tamano_effecto,color_efecto);
 						effect_create_layer(layer,tipo_efecto,x,_y_abj,tamano_effecto_2,color_efecto_2);
-						if !(array_contains(objetos_no_destruibles,_instancia.object_index))
+						if (!array_contains(objetos_no_destruibles,_instancia.object_index) && !(_instancia.object_index == obj_player && obj_player.estado == ESTADO_PLAYER.ESPECIAL))
 							instance_destroy(_instancia,true);
 					}
 			}
