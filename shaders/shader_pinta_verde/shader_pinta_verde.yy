@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"shader_parpadeo_amarillo",
-  "name":"shader_parpadeo_amarillo",
+  "%Name":"shader_pinta_verde",
+  "name":"shader_pinta_verde",
   "parent":{
     "name":"Shaders",
     "path":"folders/Shaders.yy",
