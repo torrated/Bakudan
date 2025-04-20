@@ -8,16 +8,16 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 	effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto_2,color_efecto_2);
 	audio_play_sound(snd_explosion,1,false);
 
-	for (var _i = 1; _i <= obj_juego.radio_explosion; _i++)
+	for (var _i = 0; _i <= obj_juego.radio_explosion; _i++)
 	{
 		var _instancia = noone;
 		//eje x derecha
 		var _x_der = x+(obj_juego.tamano * _i);
 		if !(stop_x_pos)
 		{
-			if (position_meeting(_x_der,y,all))
+			_instancia = collision_circle(_x_der,y,32,all,false,true);
+			if (_instancia <> noone)
 			{
-				_instancia = collision_point(_x_der,y,all,false,true);
 				if (array_contains(objetos_destruibles,_instancia.object_index))
 				{
 					stop_x_pos = true;
@@ -46,9 +46,9 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 		var _x_izq = x-(obj_juego.tamano * _i);
 		if !(stop_x_neg)
 		{
-			if (position_meeting(_x_izq,y,all))
+			_instancia = collision_circle(_x_izq,y,32,all,false,true);
+			if (_instancia <> noone)
 			{
-				_instancia = collision_point(_x_izq,y,all,false,true);
 				if (array_contains(objetos_destruibles,_instancia.object_index))
 				{		
 					stop_x_neg = true;
@@ -77,9 +77,9 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 		var _y_arr = y-(obj_juego.tamano * _i);
 		if !(stop_y_neg)
 		{
-			if (position_meeting(x,_y_arr,all))
+			_instancia = collision_circle(x,_y_arr,32,all,false,true);
+			if (_instancia <> noone)
 			{
-				_instancia = collision_point(x,_y_arr,all,false,true);
 				if (array_contains(objetos_destruibles,_instancia.object_index))
 				{
 					stop_y_neg = true;
@@ -108,9 +108,9 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 		var _y_abj = y+(obj_juego.tamano * _i);
 		if !(stop_y_pos)
 		{
-			if (position_meeting(x,_y_abj,all))
-			{
-				_instancia = collision_point(x,_y_abj,all,false,true);
+			_instancia = collision_circle(x,_y_abj,32,all,false,true);
+			if (_instancia <> noone)
+			{		
 				if (array_contains(objetos_destruibles,_instancia.object_index))
 				{
 					stop_y_pos = true;
