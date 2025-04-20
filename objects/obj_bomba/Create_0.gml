@@ -29,6 +29,11 @@ stop_x_neg = false;
 stop_y_pos = false;
 stop_y_neg = false;
 
+sombra = instance_create_layer(x,y,"Sombras",obj_sombra);
+sombra.follow = self;
+sombra.offset = 24;
+sombra.image_yscale = 0.25;
+
 }catch (_exception){
 	show_message("Error en obj_bomba.create: "+_exception.longMessage);}
 	

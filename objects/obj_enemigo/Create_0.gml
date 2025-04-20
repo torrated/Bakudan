@@ -28,8 +28,13 @@ estado_anterior = ESTADO_ENEMIGO.NORMAL;
 
 puntos = 1000;
 
-
 struct_posiciones = scr_check_posiciones(self);
+
+sombra = instance_create_layer(x,y,"Sombras",obj_sombra);
+sombra.follow = self;
+sombra.offset = 50;
+sombra.image_xscale = 1.5;
+sombra.image_yscale = 0.25;
 
 }catch (_exception){
 	show_message("Error en obj_enemigo.Create: "+_exception.longMessage);}

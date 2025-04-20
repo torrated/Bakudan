@@ -8,7 +8,6 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 	effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto_2,color_efecto_2);
 	audio_play_sound(snd_explosion,1,false);
 
-	for (var _i = 1; _i <= radio_explosion; _i++)
 	for (var _i = 1; _i <= obj_juego.radio_explosion; _i++)
 	{
 		var _instancia = noone;
@@ -143,6 +142,8 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 		fnc_actualizar_grid();
 	
 	instance_create_layer(x,y,layer,obj_shake);
+	
+	instance_destroy(sombra,true);
 }
 
 }catch (_exception){

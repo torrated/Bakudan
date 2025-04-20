@@ -2,8 +2,6 @@
 
 try{
 	
-	scr_dibuja_sombra(x-24,y+27,x+24,y+37);
-	
 	switch (estado)
 	{
 
