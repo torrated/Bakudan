@@ -19,7 +19,10 @@ if (instance_exists(obj_juego))
 		{
 			estado_anterior = ESTADO_ENEMIGO.NORMAL;
 			if (instance_exists(obj_player) && mp_grid_path(obj_mpgrid.grid, path, x, y, obj_player.x, obj_player.y, false))
+			{
 				path_start(path, velocidad, path_action_reverse, false);
+				sprite_index = sprite_con_ruta;
+			}
 			else
 				if (path_index == -1)
 				{

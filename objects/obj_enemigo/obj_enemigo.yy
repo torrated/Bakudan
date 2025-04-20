@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemigo",
-    "path":"sprites/spr_enemigo/spr_enemigo.yy",
+    "name":"spr_enemigo_sin_ruta",
+    "path":"sprites/spr_enemigo_sin_ruta/spr_enemigo_sin_ruta.yy",
   },
   "spriteMaskId":null,
   "visible":true,
