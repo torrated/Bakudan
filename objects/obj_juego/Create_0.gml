@@ -16,6 +16,8 @@ tamano_borde = 16; //en pixels
 tamano_muros = 64; //en pixels
 tamano = (tamano_pasillo+tamano_muros)/2;
 
+radio_explosion = 1; //en casillas
+
 instance_create_layer(obj_inicio_player1.x,obj_inicio_player1.y,"Instances",obj_player);
 scr_rellenar_bolitas();
 
