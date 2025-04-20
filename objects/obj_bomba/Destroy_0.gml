@@ -9,6 +9,7 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 	audio_play_sound(snd_explosion,1,false);
 
 	for (var _i = 1; _i <= radio_explosion; _i++)
+	for (var _i = 1; _i <= obj_juego.radio_explosion; _i++)
 	{
 		var _instancia = noone;
 		//eje x derecha
