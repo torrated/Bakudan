@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shader_pinta_cyan",
+  "name":"shader_pinta_cyan",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

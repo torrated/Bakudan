@@ -19,7 +19,10 @@ if (instance_exists(obj_juego))
 		{
 			estado_anterior = ESTADO_ENEMIGO.NORMAL;
 			if (instance_exists(obj_player) && mp_grid_path(obj_mpgrid.grid, path, x, y, obj_player.x, obj_player.y, false))
+			{
 				path_start(path, velocidad, path_action_reverse, false);
+				sprite_index = sprite_con_ruta;
+			}
 			else
 				if (path_index == -1)
 				{
@@ -72,6 +75,11 @@ if (instance_exists(obj_juego))
 	}
 	else
 		path_speed = 0;
+	
+	if (direction == 0)
+		image_xscale = 1;
+	if (direction == 270)
+		image_xscale = -1;
 }
 
 }catch (_exception){

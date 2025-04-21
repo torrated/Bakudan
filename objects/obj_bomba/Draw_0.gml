@@ -1,4 +1,5 @@
 /// @description 
+try{
 
 if (parpadeo_actual mod parpadeo_maximo < (parpadeo_maximo/2))
 {
@@ -8,3 +9,6 @@ if (parpadeo_actual mod parpadeo_maximo < (parpadeo_maximo/2))
 }
 else
 	draw_self();
+	
+}catch (_exception){
+	show_message("Error en obj_bomba.draw: "+_exception.longMessage);}
