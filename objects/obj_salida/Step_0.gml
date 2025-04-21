@@ -5,7 +5,9 @@ try{
 var _numero_enemigos = instance_number(obj_enemigo);
 
 if (_numero_enemigos == 0 && !portal_activado)
+{
 	portal_activado = true;
+}
 
 if (_numero_enemigos == 0 && !shader_activado)
 {
@@ -17,6 +19,12 @@ if (_numero_enemigos == 0 && !shader_activado)
 	}
 }
 
+if (portal_activado && image_speed == 0)
+{
+	image_speed = 1;
+}
+else
+	image_speed = 0;
 
 }catch (_exception){
 	show_message("Error en obj_salida.Step: "+_exception.longMessage);}

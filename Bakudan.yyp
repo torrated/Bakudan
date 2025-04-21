@@ -83,6 +83,7 @@
     {"id":{"name":"spr_negro","path":"sprites/spr_negro/spr_negro.yy",},},
     {"id":{"name":"spr_otra_bomba","path":"sprites/spr_otra_bomba/spr_otra_bomba.yy",},},
     {"id":{"name":"spr_player_andando","path":"sprites/spr_player_andando/spr_player_andando.yy",},},
+    {"id":{"name":"spr_player_muerto","path":"sprites/spr_player_muerto/spr_player_muerto.yy",},},
     {"id":{"name":"spr_player_quieto","path":"sprites/spr_player_quieto/spr_player_quieto.yy",},},
     {"id":{"name":"spr_salida","path":"sprites/spr_salida/spr_salida.yy",},},
     {"id":{"name":"spr_sombra","path":"sprites/spr_sombra/spr_sombra.yy",},},

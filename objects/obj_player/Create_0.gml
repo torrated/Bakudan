@@ -17,6 +17,7 @@ puntos = 0;
 
 sprite_quieto = spr_player_quieto;
 sprite_andando = spr_player_andando;
+sprite_muerto = spr_player_muerto;
 
 enum ESTADO_PLAYER
 {
