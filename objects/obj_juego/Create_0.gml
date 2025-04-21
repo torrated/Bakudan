@@ -1,6 +1,8 @@
 /// @description 
 try{
-	
+
+randomize();
+
 enum ESTADO_JUEGO
 {
 	NORMAL,
