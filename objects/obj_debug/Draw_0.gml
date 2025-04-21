@@ -24,10 +24,7 @@ with (obj_collider)
 
 with (obj_enemigo)
 {
-	//draw_text(x+obj_juego.tamano,y,struct_posiciones.der);
-	//draw_text(x-obj_juego.tamano,y,struct_posiciones.izq);
-	//draw_text(x,y+obj_juego.tamano,struct_posiciones.abj);
-	//draw_text(x,y-obj_juego.tamano,struct_posiciones.arr);
+	//draw_text(x+obj_juego.tamano,y,direction);
 }
 
 }catch (_exception){

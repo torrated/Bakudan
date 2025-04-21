@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shader_pinta_magenta",
+  "name":"shader_pinta_magenta",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

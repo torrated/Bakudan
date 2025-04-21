@@ -3,6 +3,7 @@
 try{
 
 estado = ESTADO_PLAYER.ESPECIAL;
+duracion_parpadeo = 0;
 instance_destroy(other,true);
 
 }catch (_exception){

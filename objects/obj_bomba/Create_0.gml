@@ -15,20 +15,24 @@ alarm[0] = 1;
 
 player = noone;
 
-radio_explosion = 1; //en casillas
 tamano_effecto = 1;
 tamano_effecto_2 = 1;
 tipo_efecto = ef_smoke;
 color_efecto = c_yellow;
 color_efecto_2 = c_red;
 
-objetos_destruibles = [obj_collider_destruible];
+objetos_destruibles = [obj_collider_destruible,obj_muro_destruible_hor,obj_muro_destruible_ver];
 objetos_no_destruibles = [obj_collider,obj_enemigo,obj_salida];
 
 stop_x_pos = false;
 stop_x_neg = false;
 stop_y_pos = false;
 stop_y_neg = false;
+
+sombra = instance_create_layer(x,y,"Sombras",obj_sombra);
+sombra.follow = self;
+sombra.offset = 24;
+sombra.image_yscale = 0.25;
 
 }catch (_exception){
 	show_message("Error en obj_bomba.create: "+_exception.longMessage);}

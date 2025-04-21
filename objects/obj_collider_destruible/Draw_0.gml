@@ -8,7 +8,7 @@ else
 {
 	if (valor mod valor_maximo < (valor_maximo/2))
 	{
-		shader_set(shader_parpadeo_amarillo);
+		shader_set(shader_pinta_amarillo);
 		draw_self();
 		shader_reset();
 	}

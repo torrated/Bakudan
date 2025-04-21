@@ -25,7 +25,7 @@ if (instance_number(obj_collider_destruible) == 0 && instance_number(obj_enemigo
 		_x = tamano_borde+(tamano_pasillo/2)+(tamano*(round(_x/tamano)))-tamano;
 		_y = tamano_borde+(tamano_pasillo/2)+(tamano*(round(_y/tamano)))-tamano;
 		
-		if !(place_meeting(_x,_y,all))
+		if !(position_meeting(_x,_y,all))
 			instance_create_layer(_x,_y,"Bolitas",obj_fruta);
 	}
 }

@@ -1,6 +1,8 @@
 /// @description 
 try{
-	
+
+randomize();
+
 enum ESTADO_JUEGO
 {
 	NORMAL,
@@ -16,6 +18,8 @@ tamano_borde = 16; //en pixels
 tamano_muros = 64; //en pixels
 tamano = (tamano_pasillo+tamano_muros)/2;
 
+radio_explosion = 1; //en casillas
+
 instance_create_layer(obj_inicio_player1.x,obj_inicio_player1.y,"Instances",obj_player);
 scr_rellenar_bolitas();
 
@@ -26,6 +30,8 @@ instance_create_layer(salida.x,salida.y,"Salida",obj_salida);
 
 tiempo_ultima_fruta = 0;
 tiempo_trigger_fruta = 5*60; // 5 segundos
+
+audio_play_sound(snd_musica_1,1,true,0.5);
 
 }catch (_exception){
 	show_message("Error en obj_juego.Create: "+_exception.longMessage);}

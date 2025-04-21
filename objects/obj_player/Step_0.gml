@@ -6,7 +6,7 @@ struct_posiciones = scr_check_posiciones(self);
 
 if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 {
-	var control=0;
+	var control = 0;
 	movex = obj_controllers.controles[control].eje_x;
 	movey = obj_controllers.controles[control].eje_y;
 	boton = obj_controllers.controles[control].boton;
@@ -35,6 +35,16 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 			estado = ESTADO_PLAYER.NORMAL;
 		}
 	}
+	
+// SPRITES
+	if (movex <> 0 || movey <> 0)
+		sprite_index = sprite_andando;
+	else
+		sprite_index = sprite_quieto;
+	if (movex > 0)
+		image_xscale = 1;
+	if (movex < 0)
+		image_xscale = -1;
 }
 
 }catch (_exception){
