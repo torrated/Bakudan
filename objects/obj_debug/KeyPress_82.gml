@@ -8,5 +8,5 @@ with(obj_collider_destruible)
 
 with(obj_player)
 {
-	estado = ESTADO_PLAYER.ESPECIAL;
+	//estado = ESTADO_PLAYER.ESPECIAL;
 }
