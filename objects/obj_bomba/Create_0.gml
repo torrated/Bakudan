@@ -22,7 +22,7 @@ color_efecto = c_yellow;
 color_efecto_2 = c_red;
 
 objetos_destruibles = [obj_collider_destruible,obj_muro_destruible_hor,obj_muro_destruible_ver];
-objetos_no_destruibles = [obj_collider,obj_enemigo,obj_salida];
+objetos_no_destruibles = [obj_collider,obj_enemigo,obj_salida,obj_volumen];
 
 stop_x_pos = false;
 stop_x_neg = false;
