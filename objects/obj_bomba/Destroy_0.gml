@@ -142,6 +142,7 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 		fnc_actualizar_grid();
 	
 	instance_create_layer(x,y,layer,obj_shake);
+	instance_create_layer(0,0,"Flash",obj_pixel_blanco);
 	
 	instance_destroy(sombra,true);
 }
