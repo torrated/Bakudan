@@ -6,7 +6,8 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 {
 	effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto,color_efecto);
 	effect_create_layer(layer,tipo_efecto,x,y,tamano_effecto_2,color_efecto_2);
-	audio_play_sound(snd_explosion,1,false,1*(obj_volumen.volumen/obj_volumen.volumen_maximo));
+	if (instance_exists(obj_volumen))
+		audio_play_sound(snd_explosion,1,false,1*(obj_volumen.volumen/obj_volumen.volumen_maximo));
 
 	for (var _i = 0; _i <= obj_juego.radio_explosion; _i++)
 	{
@@ -142,10 +143,14 @@ if (instance_exists(obj_juego) && obj_juego.estado == ESTADO_JUEGO.NORMAL)
 		fnc_actualizar_grid();
 	
 	instance_create_layer(x,y,layer,obj_shake);
-	instance_create_layer(0,0,"Flash",obj_pixel_blanco);
 	
 	instance_destroy(sombra,true);
+	
+	instance_create_layer(0,0,"Flash",obj_pixel_blanco);
 }
 
 }catch (_exception){
-	show_message("Error en obj_bomba.Destroy: "+_exception.longMessage);}
+	show_message("Error en obj_bomba.Destroy: "+_exception.message);
+	show_message("Error en obj_bomba.Destroy: "+_exception.longMessage);
+	show_message("Error en obj_bomba.Destroy: "+_exception.script);
+	show_message("Error en obj_bomba.Destroy: "+_exception.stacktrace);}
