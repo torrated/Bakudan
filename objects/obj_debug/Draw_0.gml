@@ -1,7 +1,10 @@
 /// @description 
 
 try{
-	
+
+//draw_text(mouse_x,mouse_y+16,string(mouse_x)+","+string(mouse_y));
+
+
 //draw_text(mouse_x,mouse_y,string(mouse_x)+","+string(mouse_y));
 with (obj_player)
 {
@@ -25,6 +28,11 @@ with (obj_collider)
 with (obj_enemigo)
 {
 	//draw_text(x+obj_juego.tamano,y,direction);
+}
+
+with (obj_volumen)
+{
+	//draw_text(mouse_x,mouse_y,"Visible:"+string(obj_volumen.visible));
 }
 
 }catch (_exception){
