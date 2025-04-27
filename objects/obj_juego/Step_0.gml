@@ -30,5 +30,7 @@ if (instance_number(obj_collider_destruible) == 0 && instance_number(obj_enemigo
 	}
 }
 
+if (estado == ESTADO_JUEGO.COMPLETE && obj_controllers.controles[0].boton)
+	room_goto_next();
 }catch (_exception){
 	show_message("Error en obj_juego.Step: "+_exception.longMessage);}

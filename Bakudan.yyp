@@ -67,6 +67,7 @@
     {"id":{"name":"obj_zapatillas","path":"objects/obj_zapatillas/obj_zapatillas.yy",},},
     {"id":{"name":"room_menu_principal","path":"rooms/room_menu_principal/room_menu_principal.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Scripts","path":"scripts/Scripts/Scripts.yy",},},
     {"id":{"name":"shader_alpha","path":"shaders/shader_alpha/shader_alpha.yy",},},
     {"id":{"name":"shader_pinta_amarillo","path":"shaders/shader_pinta_amarillo/shader_pinta_amarillo.yy",},},
@@ -115,6 +116,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"room_menu_principal","path":"rooms/room_menu_principal/room_menu_principal.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
