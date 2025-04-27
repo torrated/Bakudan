@@ -31,7 +31,10 @@ instance_create_layer(salida.x,salida.y,"Salida",obj_salida);
 tiempo_ultima_fruta = 0;
 tiempo_trigger_fruta = 5*60; // 5 segundos
 
-audio_play_sound(snd_musica_1,1,true,0.5);
+
+audio_stop_all();
+audio_group_set_gain(audiogroup1,(obj_volumen.volumen/obj_volumen.volumen_maximo),0);
+audio_play_sound(snd_musica_1,1,true,0.5*(obj_volumen.volumen/obj_volumen.volumen_maximo));
 
 }catch (_exception){
 	show_message("Error en obj_juego.Create: "+_exception.longMessage);}
