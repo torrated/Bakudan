@@ -80,6 +80,7 @@
     {"id":{"name":"snd_explosion","path":"sounds/snd_explosion/snd_explosion.yy",},},
     {"id":{"name":"snd_gameover","path":"sounds/snd_gameover/snd_gameover.yy",},},
     {"id":{"name":"snd_musica_1","path":"sounds/snd_musica_1/snd_musica_1.yy",},},
+    {"id":{"name":"snd_pickup_bolita","path":"sounds/snd_pickup_bolita/snd_pickup_bolita.yy",},},
     {"id":{"name":"cooperativo_games_logo_64x64","path":"sprites/cooperativo_games_logo_64x64/cooperativo_games_logo_64x64.yy",},},
     {"id":{"name":"spr_barra_volumen","path":"sprites/spr_barra_volumen/spr_barra_volumen.yy",},},
     {"id":{"name":"spr_bolita","path":"sprites/spr_bolita/spr_bolita.yy",},},
