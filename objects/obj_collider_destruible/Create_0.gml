@@ -2,7 +2,7 @@
 
 try{
 
-probabilidad = 25;
+probabilidad = 33;
 
 activa_shader = false;
 valor_maximo = 60;
