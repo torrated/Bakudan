@@ -2,6 +2,8 @@
 
 try{
 
+#region TEXTO CENTRAL
+
 if (instance_exists(obj_juego) && obj_juego.estado <> ESTADO_JUEGO.NORMAL)
 {
 	var _color = draw_get_color();
@@ -20,6 +22,8 @@ if (instance_exists(obj_juego) && obj_juego.estado <> ESTADO_JUEGO.NORMAL)
 	draw_set_color(_color);
 	draw_set_halign(_haligh);
 }
+
+#endregion
 
 #region SCORE PLAYER 1
 if (instance_exists(obj_player))
@@ -73,5 +77,10 @@ if (instance_exists(obj_timer))
 	draw_set_halign(_haligh);
 #endregion
 
+#region NUMERO DE NIVEL
+
+draw_text(obj_negro.x,obj_negro.y,room_get_name(room));
+
+#endregion
 }catch (_exception){
 	show_message("Error en obj_gui.Draw: "+_exception.longMessage);}
