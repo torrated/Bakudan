@@ -67,7 +67,7 @@ if (instance_exists(obj_timer))
 	draw_set_color(c_white);
 	draw_set_halign(fa_center);
 	
-	draw_text(puntuacion_player1.x,room_height-obj_juego.tamano_borde,"v0.3");
+	draw_text(puntuacion_player1.x,room_height-obj_juego.tamano_borde,"v0.4");
 	
 	draw_set_color(_color);
 	draw_set_halign(_haligh);
