@@ -2,5 +2,5 @@
 
 with(obj_enemigo)
 {
-	instance_destroy();
+	//instance_destroy();
 }
